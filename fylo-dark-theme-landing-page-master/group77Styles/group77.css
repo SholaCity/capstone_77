@@ -148,6 +148,7 @@ p {
 	font-size: 20px;
 	padding: 15px 20px 15px 20px;
 	text-decoration: none;
+	border: none !important;
 	transition: all 200ms ease 300ms;
 }
 
@@ -274,9 +275,10 @@ div.Stay-text-container p.Stay-text {
 /*er89g rgvy gu*/
 
 
-.see-fylo-icon li {
-	list-style-image: url("../images/icon-arrow-cyan.svg");
-	list-style-position: inside;
+.see-fylo-icon  {
+	display: inline-flex;
+	flex-direction: row;
+	align-content: flex-start;
 	margin: 0.85rem 0;
 }
 
@@ -287,6 +289,7 @@ div.Stay-text-container p.Stay-text {
 	margin: 0;
 	font-weight: 400;
 	padding: 1px;
+	border: none !important;
 	background-image: linear-gradient(hsl(176, 68%, 64%), hsl(176, 68%, 64%));
 	background-position: 0 100%;
 	background-size: 0% 2px;
@@ -298,6 +301,12 @@ div.Stay-text-container p.Stay-text {
 	color: hsl(0deg 0% 100%);
 	background-position: 100% 100%;
 	background-size: 100% 2px;
+}
+
+.icon-arrow {
+	width: 1.2rem;
+    margin-bottom: -0.2em;
+    margin-left: 0.4em;
 }
 
 /*REVIEW SECTION*/
@@ -418,6 +427,7 @@ div.review-container {
 	    justify-content: center;
 	    align-content: center;
 	    align-items: flex-start;
+	    border: none;
 
 	}
 	.input-footer-form {
@@ -430,6 +440,7 @@ div.review-container {
 	    width: 17rem;
 	    height: 2rem;
 	    margin: 0;
+		border: none !important;
 	    border-radius: 8.5em;
 		padding: 0.3em 0.5em;
 		text-align: left;
@@ -450,6 +461,7 @@ div.review-container {
 		border-radius: 150px;
 		font-family: 'Raleway', sans-serif;
 		color: #ffffff;
+		border: none !important;
 		font-size: 20px;
 		padding: 0.3rem 0.75em;
 		text-decoration: none;
@@ -601,9 +613,10 @@ div.review-container {
 		margin: 0.5rem 0;
 	}
 
-	.see-fylo-icon li:first-child {
-		list-style-image: url("../images/icon-arrow-cyan.svg");
-		list-style-position: inside;
+	.see-fylo-icon  {
+		display: inline-flex;
+		flex-direction: row;
+		align-content: flex-start;
 		margin: 0.85rem 0;
 	}
 
@@ -643,7 +656,7 @@ div.review-container {
 	}
 
 	.review-text {
-		font-size: 19px;
+		font-size: 16px;
 		padding: 1rem 1rem 0  ;
 		margin-bottom: 0;
 	}
@@ -884,9 +897,10 @@ div.review-container {
 		margin: 0.5rem 0;
 	}
 
-	.see-fylo-icon li:first-child {
-	list-style-image: url("../images/icon-arrow-cyan.svg");
-	list-style-position: inside;
+	.see-fylo-icon  {
+	display: inline-flex;
+	flex-direction: row;
+	align-content: flex-start;
 	margin: 0.85rem 0;
 }
 
